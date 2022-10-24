@@ -336,3 +336,99 @@ footer ul{
 .social-icon{
     width: 20px;
 }
+
+/*Mobile responsiveness*/
+
+@media screen and (max-width: 1238px){
+    
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-list ul{
+        margin: 2rem auto;
+    }
+
+    .hero-one{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-one-image{
+        width: 600px;
+        height: 575px;
+    }
+
+    .hero-one-content{
+        text-align: center;
+    }
+
+    .hero-one-content p{
+        margin-right: 0;
+    }
+
+    .hero-three-cards{
+        grid-template-columns: 1fr;
+    }
+
+    .image-container{
+        padding: 3rem 6.2rem;
+    }
+}
+
+@media screen and (max-width: 748px) {
+    .nav-list ul{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-one-image{
+        width: 350px;
+        height: 400px;
+    }
+
+    .hero-one-content h1{
+        font-size: 35px;
+    }
+
+    .hero-one-content p{
+        width: 350px;
+    }
+
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats{
+        flex-direction: column;
+    }
+
+    .featured{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .image-container{
+        padding: 0.5rem 2.2rem;
+    }
+
+    .hero-three-cards{
+        margin-left: -7em;
+        align-items: center;
+    }
+
+    .hero-four{
+        flex-direction: column;
+        width: 200px;
+    }
+
+    .hero-four-content h1{
+        font-size: 20px;
+    }
+
+    .contact-btn{
+        padding: 0.5rem 1.5rem;
+    }
+}
